@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page Design</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="product">
+      <div class="product-image">
+        <img id="img" src="images/image1.png">
+        <div class="image-changers">
+          <div class="change-button js-change-button"></div>
+          <div class="change-button js-change-button"></div>
+          <div class="change-button js-change-button"></div>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-name">Casual T Shirt</div>
+        <div class="product-price">$15.00</div>
+        <div class="product-discount">30% OFF</div>
+        <div class="product-description">Wrangler is an American manufacturer of jeans and other clothing items, particularly workwear.</div>
+        <div class="product-characteristics">
+          <div class="size-selection">
+            <span class="size-list">Size</span>  
+            <span class="size">S</span>
+            <span class="size">M</span>
+            <span class="size">L</span>
+            <span class="size">XL</span>
+            <span class="size">XXL</span>
+          </div>
+          <div class="color-selection">
+            <div class="color-list">Color
+              <span class="color"></span>
+              <span class="color"></span>
+              <span class="color"></span>
+              <span class="color"></span>
+            </div>
+          </div>
+          <div class="quantity-selection">
+            Quantity
+            <input class="js-quanity-input" value="1" min="1" max="10" type="number" style="
+            width:30px;
+            padding: 2px;
+            border: none;
+            border-radius: 8px;
+            background-color: lightgray;
+            margin-left: 10px;
+            "/>
+          </div>
+          <button class="buy-now-button js-buy-now">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
